@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            card_view:cardCornerRadius="5dp"
+            card_view:cardCornerRadius="10dp"
             card_view:cardElevation="5dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -54,6 +54,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
+            android:onClick="Next"
             android:foreground="@drawable/ripple_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 

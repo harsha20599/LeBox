@@ -20,7 +20,8 @@
         <activity android:name=".Recovery" />
         <activity android:name=".Gapps" />
         <activity android:name=".Bootanim" />
-        <activity android:name=".Bootlogo"></activity>
+        <activity android:name=".Bootlogo" />
+        <activity android:name=".Written"></activity>
     </application>
 
 </manifest>

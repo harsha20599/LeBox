@@ -2,166 +2,148 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="55d62bc298fdb133a762887f06510233b72491ce">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_79894f5c325ac772bd4f15050d44e1c3f9d6479b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_cc31045f4eb9e6992337b35305e76f773186f038\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_9850b477760f2cd773f68fefdeee078ebce29047\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_09983d07b493b194554e95094a1ff138c1c8bb77\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="5c5f74cddc3da65479182cc8e235501063e7ce4f">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_969d28ccaf8920e24b14b0f204838a7ea7754683\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_4203846ebb2edb477a7e8618e6a361aff8e7aae4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_8cdd055b9a13c8f620c8157754383c8eccf70a8a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_477c25d0c3efac8494337db61384366528eeef05\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f8ae6b23ecff7b27efcbe2c0507cd845a337c247\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-21.0.3_6e7cd0d3911d58f9a3959e90a4a6af194a092d8f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_ae050146c2cda8b5ed1939015ab9b08fd95e647a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_41dfa46b7702b62203b432a47de58b4a3a24e4c0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_59bb06c2e73703d918114270310cce208ad525eb\classes.dex" />
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_d892bb37cd88e481eb73a2f320b66a7b7deb19f2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_6227cb6abc8d6b1c6d926e35f0d56ea19684887d\classes.dex" />
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-21.0.3_d463eac319cf4a8282d068984cedcf974a812638.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_9f803df6c4ccccd19e7729110e0d9965c0c690f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_c89c77f957c2109bd1442f4d73ca9a2c9f6728a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_de48a819911239f476f8da5dd2c5b546b11d1303\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.1"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\rajat\AndroidStudioProjects\LeBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_fca95beac5c71f6674d2b13bd3542e2317f53ce2\classes.dex" />
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_5a281cee89138dc282e57e180fc55e36f0198b22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_cd97b10eb530687fdf1de71d8b302af1ff352cad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ec3fea92b1de6a033afeca0e18cff46eab6086e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_4c52196ad72f6ad9ee5fe390e5bb190dd277b22c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_95bd90f1860e6d4c0564780fc3944886e9ff9806.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\Android\Sdk1\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_b9352650ea90e1e356d0118fc0f35465b104faec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_208da905058e4deb6cfa8774de186d7b590906cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_10bb159f52537e17178d74915f8d20159922bda5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_03ba64adebc5baf26be685cd317f3c2e11eaf2bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_59797afd27338df280a9ed08f6e19e4480db5fd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_1eaffc38eab5e2bef47e1789a882a884541e9f10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_0a2f4f4af5b29cb7a4a72a1585af903d0e31f729.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_d1ea5b6197e51c061b8d3cb67b5f4b890ee873c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\GitForks\LeBox\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\GitForks\LeBox\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_058188c650cbbc09c39f0c5df541e3d2c7d05354.jar" />
     </item>
 
 </items>
