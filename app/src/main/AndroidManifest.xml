@@ -21,7 +21,10 @@
         <activity android:name=".Gapps" />
         <activity android:name=".Bootanim" />
         <activity android:name=".Bootlogo" />
-        <activity android:name=".Written"></activity>
+        <activity android:name=".Written" />
+        <activity android:name=".Video" />
+        <activity android:name=".RR" />
+        <activity android:name=".Mokee"></activity>
     </application>
 
 </manifest>
