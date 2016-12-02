@@ -32,8 +32,12 @@ public class Tutorials extends AppCompatActivity {
         txt2.setTypeface(BrandonGrotesque);
 
     }
-    public void Next(View jj) {
+    public void Written(View f) {
         Intent next = new Intent(getApplicationContext(), Written.class);
+        startActivity(next);
+    }
+    public void Video(View a) {
+        Intent next = new Intent(getApplicationContext(), Video.class);
         startActivity(next);
     }
 }

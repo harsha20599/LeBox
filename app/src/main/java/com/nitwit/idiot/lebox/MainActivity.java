@@ -2,6 +2,7 @@ package com.nitwit.idiot.lebox;
 
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,10 +12,14 @@ import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
+import java.util.Locale;
+
 import static android.R.attr.onClick;
 import static android.R.attr.typeface;
 
 public class MainActivity extends AppCompatActivity {
+    int result;
+
 
     TextView titletxt, txt1, txt2, txt3, txt4, txt5, txt6;
 
@@ -23,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        titletxt = (TextView)findViewById(R.id.text0);
+
+                titletxt = (TextView) findViewById(R.id.text0);
         txt1 = (TextView)findViewById(R.id.text1);
         txt2 = (TextView)findViewById(R.id.text2);
         txt3 = (TextView)findViewById(R.id.text3);

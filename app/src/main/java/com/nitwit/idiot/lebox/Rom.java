@@ -1,8 +1,11 @@
 package com.nitwit.idiot.lebox;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
+import android.view.View;
 import android.widget.TextView;
 
 public class Rom extends AppCompatActivity {
@@ -28,5 +31,15 @@ public class Rom extends AppCompatActivity {
         txt2.setTypeface(BrandonGrotesque);
         txt3.setTypeface(BrandonGrotesque);
         txt4.setTypeface(BrandonGrotesque);
+    }
+    public void RompageRR(View a)
+    {
+        Intent next = new Intent(getApplicationContext(), RR.class);
+        startActivity(next);
+    }
+    public void RompageMokee(View a)
+    {
+        Intent next = new Intent(getApplicationContext(), Mokee.class);
+        startActivity(next);
     }
 }
