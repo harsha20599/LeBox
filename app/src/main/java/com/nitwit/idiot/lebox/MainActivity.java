@@ -1,5 +1,6 @@
 package com.nitwit.idiot.lebox;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,17 +10,43 @@ import android.widget.Toast;
 import static android.R.attr.onClick;
 
 public class MainActivity extends AppCompatActivity {
-    Button b1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        b1=(Button)findViewById(R.id.button1);
+
 
     }
-    public void Next(View a)
+    public void Tutorial(View a)
     {
-        Toast.makeText(getApplicationContext(),"yo",Toast.LENGTH_LONG).show();
+        Intent next=new Intent(getApplicationContext(),Tutorials.class);
+        startActivity(next);
+    }
+    public void Rom(View a)
+    {
+        Intent next=new Intent(getApplicationContext(),Rom.class);
+        startActivity(next);
+    }
+    public void Recovery(View a)
+    {
+        Intent next=new Intent(getApplicationContext(),Recovery.class);
+        startActivity(next);
+    }
+    public void Gapps(View a)
+    {
+        Intent next=new Intent(getApplicationContext(),Gapps.class);
+        startActivity(next);
+    }
+    public void Bootanim(View a)
+    {
+        Intent next=new Intent(getApplicationContext(),Bootanim.class);
+        startActivity(next);
+    }
+    public void Bootlogo(View a)
+    {
+        Intent next=new Intent(getApplicationContext(),Bootlogo.class);
+        startActivity(next);
     }
 }
