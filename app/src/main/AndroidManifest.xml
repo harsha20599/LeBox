@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Tutorials" />
+        <activity android:name=".Rom" />
+        <activity android:name=".Recovery" />
+        <activity android:name=".Gapps" />
+        <activity android:name=".Bootanim" />
+        <activity android:name=".Bootlogo"></activity>
     </application>
 
 </manifest>
