@@ -1,8 +1,10 @@
 package com.nitwit.idiot.lebox;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Recovery extends AppCompatActivity {
@@ -24,5 +26,10 @@ public class Recovery extends AppCompatActivity {
         titletxt.setTypeface(BrandonGrotesqueBlack);
         txt1.setTypeface(BrandonGrotesque);
         txt2.setTypeface(BrandonGrotesque);
+    }
+    public void TWRP(View a)
+    {
+        Intent next=new Intent(getApplicationContext(),TWRP.class);
+        startActivity(next);
     }
 }
