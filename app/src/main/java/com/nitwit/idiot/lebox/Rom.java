@@ -42,4 +42,14 @@ public class Rom extends AppCompatActivity {
         Intent next = new Intent(getApplicationContext(), Mokee.class);
         startActivity(next);
     }
+    public void RompageMiui(View a)
+    {
+        Intent next = new Intent(getApplicationContext(), Miui.class);
+        startActivity(next);
+    }
+    public void RompageEui(View a)
+    {
+        Intent next = new Intent(getApplicationContext(), Eui.class);
+        startActivity(next);
+    }
 }

@@ -1,28 +1,26 @@
 package com.nitwit.idiot.lebox;
 
+import android.app.DownloadManager;
+import android.content.Context;
 import android.graphics.Typeface;
+import android.net.Uri;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
+import android.view.View;
 import android.widget.TextView;
 
 public class Gapps extends AppCompatActivity {
-
-    TextView titletxt, txt1, txt2;
+    CardView down;
+    DownloadManager dm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gapps);
 
-        titletxt = (TextView)findViewById(R.id.text0);
-        txt1 = (TextView)findViewById(R.id.text1);
-        txt2 = (TextView)findViewById(R.id.text2);
 
-        Typeface BrandonGrotesque = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Regular.ttf");
-        Typeface BrandonGrotesqueBlack = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Black.ttf");
 
-        titletxt.setTypeface(BrandonGrotesqueBlack);
-        txt1.setTypeface(BrandonGrotesque);
-        txt2.setTypeface(BrandonGrotesque);
     }
 }

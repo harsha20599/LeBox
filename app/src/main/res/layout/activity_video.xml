@@ -10,11 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nitwit.idiot.lebox.Video">
 
-    <Button
-        android:text="Button"
+    <VideoView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button" />
+        android:id="@+id/videoView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
 </RelativeLayout>
