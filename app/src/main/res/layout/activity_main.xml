@@ -33,11 +33,20 @@
             android:layout_weight="2"
             card_view:cardUseCompatPadding="true">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="centerCrop"
-                android:background="@drawable/rr" />
+            <com.joooonho.SelectableRoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardimagebg"
+                android:src="@drawable/titlecardbg"
+                android:scaleType="matrix"
+                app:sriv_left_top_corner_radius="5dp"
+                app:sriv_right_top_corner_radius="5dp"
+                app:sriv_left_bottom_corner_radius="5dp"
+                app:sriv_right_bottom_corner_radius="5dp"
+                app:sriv_border_width="0dp"
+                app:sriv_border_color="#008fea"
+                app:sriv_oval="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
             <TextView
                 android:text="leBox"

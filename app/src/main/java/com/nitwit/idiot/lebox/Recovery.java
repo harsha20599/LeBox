@@ -1,21 +1,27 @@
 package com.nitwit.idiot.lebox;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.TextView;
+
+import java.util.Random;
 
 public class Recovery extends AppCompatActivity {
 
     TextView titletxt, txt1, txt2;
+    CardView card;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recovery);
 
+        card = (CardView)findViewById(R.id.card0);
         titletxt = (TextView)findViewById(R.id.text0);
         txt1 = (TextView)findViewById(R.id.text1);
         txt2 = (TextView)findViewById(R.id.text2);
@@ -31,5 +37,10 @@ public class Recovery extends AppCompatActivity {
     {
         Intent next=new Intent(getApplicationContext(),TWRP.class);
         startActivity(next);
+    }
+
+    public void Color(View a) {
+        Random rnd = new Random();
+        card.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
     }
 }

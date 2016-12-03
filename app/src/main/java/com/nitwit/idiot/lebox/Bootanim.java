@@ -1,12 +1,18 @@
 package com.nitwit.idiot.lebox;
 
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
+import android.view.View;
 import android.widget.TextView;
+
+import java.util.Random;
 
 public class Bootanim extends AppCompatActivity {
 
+    CardView card;
     TextView titletxt, txt1, txt2, txt3;
 
     @Override
@@ -14,6 +20,7 @@ public class Bootanim extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bootanim);
 
+        card = (CardView)findViewById(R.id.card0);
         titletxt = (TextView)findViewById(R.id.text0);
         txt1 = (TextView)findViewById(R.id.text1);
         txt2 = (TextView)findViewById(R.id.text2);
@@ -26,7 +33,10 @@ public class Bootanim extends AppCompatActivity {
         txt1.setTypeface(BrandonGrotesque);
         txt2.setTypeface(BrandonGrotesque);
         txt3.setTypeface(BrandonGrotesque);
+    }
 
-
+    public void Color(View a) {
+        Random rnd = new Random();
+        card.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
     }
 }
