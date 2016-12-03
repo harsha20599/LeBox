@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-                titletxt = (TextView) findViewById(R.id.text0);
+        titletxt = (TextView) findViewById(R.id.text0);
         txt1 = (TextView)findViewById(R.id.text1);
         txt2 = (TextView)findViewById(R.id.text2);
         txt3 = (TextView)findViewById(R.id.text3);
@@ -77,6 +77,11 @@ public class MainActivity extends AppCompatActivity {
     public void Bootlogo(View a)
     {
         Intent next=new Intent(getApplicationContext(),Bootlogo.class);
+        startActivity(next);
+    }
+    public void Settings(View a)
+    {
+        Intent next=new Intent(getApplicationContext(), Settings.class);
         startActivity(next);
     }
 }
