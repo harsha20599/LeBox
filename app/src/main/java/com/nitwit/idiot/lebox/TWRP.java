@@ -2,6 +2,7 @@ package com.nitwit.idiot.lebox;
 
 import android.app.DownloadManager;
 import android.content.Context;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Environment;
@@ -11,6 +12,7 @@ import android.support.v7.widget.CardView;
 import android.view.View;
 import android.webkit.MimeTypeMap;
 import android.webkit.URLUtil;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.DataInputStream;
@@ -27,6 +29,7 @@ import java.net.URL;
 public class TWRP extends AppCompatActivity {
     CardView download;
     DownloadManager dm;
+    TextView titletxt, txt1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +46,15 @@ public class TWRP extends AppCompatActivity {
                 Long reference=dm.enqueue(request);
             }
         });
+
+        titletxt = (TextView)findViewById(R.id.text0);
+        txt1 = (TextView)findViewById(R.id.text1);
+
+        Typeface BrandonGrotesque = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Regular.ttf");
+        Typeface BrandonGrotesqueBlack = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Black.ttf");
+
+        titletxt.setTypeface(BrandonGrotesqueBlack);
+        txt1.setTypeface(BrandonGrotesque);
 
     }
     

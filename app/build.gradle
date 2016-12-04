@@ -30,4 +30,5 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.0.1'
     compile 'com.joooonho:selectableroundedimageview:1.0.1'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile 'com.github.chyrta:AndroidOnboarder:0.6'
 }
