@@ -32,7 +32,6 @@
         </activity>
         <activity android:name=".TWRP" />
         <activity android:name=".Logo" />
-        <activity android:name=".Animation" />
         <activity android:name=".Rompage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

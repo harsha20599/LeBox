@@ -33,9 +33,6 @@
             android:foreground="@drawable/ripple_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
-
-
-
             <TextView
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
