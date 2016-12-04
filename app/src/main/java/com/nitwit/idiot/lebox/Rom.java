@@ -14,13 +14,13 @@ import java.util.Random;
 public class Rom extends AppCompatActivity {
 
     TextView titletxt, txt1, txt2, txt3, txt4;
-    CardView card1,card2,card3,card4;
+    CardView card,card1,card2,card3,card4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rom);
-
+        card=(CardView)findViewById(R.id.card_view0);
         card1 = (CardView)findViewById(R.id.card_view1);
         card2 = (CardView)findViewById(R.id.card_view2);
         card3 = (CardView)findViewById(R.id.card_view3);
@@ -72,6 +72,10 @@ public class Rom extends AppCompatActivity {
         txt2.setTypeface(BrandonGrotesque);
         txt3.setTypeface(BrandonGrotesque);
         txt4.setTypeface(BrandonGrotesque);
+    }
+    public void Color(View a) {
+        Random rnd = new Random();
+        card.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
     }
 
 }

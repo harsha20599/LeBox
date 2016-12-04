@@ -13,13 +13,14 @@ import java.util.Random;
 
 public class Bootanim extends AppCompatActivity {
 
-    CardView card1,card2,card3;
+    CardView card,card1,card2,card3;
     TextView titletxt, txt1, txt2, txt3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bootanim);
+        card=(CardView)findViewById(R.id.card_view0);
         card1 = (CardView)findViewById(R.id.card_view1);
         card2 = (CardView)findViewById(R.id.card_view2);
         card3 = (CardView)findViewById(R.id.card_view3);
@@ -60,6 +61,10 @@ public class Bootanim extends AppCompatActivity {
         txt1.setTypeface(BrandonGrotesque);
         txt2.setTypeface(BrandonGrotesque);
         txt3.setTypeface(BrandonGrotesque);
+    }
+    public void Color(View a) {
+        Random rnd = new Random();
+        card.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
     }
 
 
