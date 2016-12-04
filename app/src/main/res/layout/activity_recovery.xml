@@ -86,7 +86,6 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:onClick="Rom"
             android:foreground="@drawable/ripple_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 

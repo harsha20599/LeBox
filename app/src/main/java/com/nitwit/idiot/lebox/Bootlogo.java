@@ -20,7 +20,7 @@ public class Bootlogo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bootlogo);
 
-        card = (CardView)findViewById(R.id.card0);
+        card = (CardView)findViewById(R.id.card_view5);
         titletxt = (TextView)findViewById(R.id.text0);
         txt1 = (TextView)findViewById(R.id.text1);
         txt2 = (TextView)findViewById(R.id.text2);
