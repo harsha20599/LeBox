@@ -21,7 +21,7 @@ public class Recovery extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recovery);
 
-        card = (CardView)findViewById(R.id.card0);
+        card = (CardView)findViewById(R.id.card_view0);
         titletxt = (TextView)findViewById(R.id.text0);
         txt1 = (TextView)findViewById(R.id.text1);
         txt2 = (TextView)findViewById(R.id.text2);

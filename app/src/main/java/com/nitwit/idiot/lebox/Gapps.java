@@ -23,7 +23,7 @@ public class Gapps extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gapps);
 
-        card = (CardView)findViewById(R.id.card0);
+        card = (CardView)findViewById(R.id.card_view0);
     }
 
     public void Color(View a) {

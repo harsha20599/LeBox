@@ -4,10 +4,6 @@
     android:id="@+id/activity_bootanim"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nitwit.idiot.lebox.Bootanim">
 
     <LinearLayout
@@ -64,8 +60,6 @@ ANIMATION"
             android:foreground="@drawable/ripple_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
-
-
             <TextView
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
@@ -73,7 +67,7 @@ ANIMATION"
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="BLA "
+                android:text="1"
                 android:textSize="17sp"
                 android:textColor="@color/black" />
 
@@ -95,8 +89,6 @@ ANIMATION"
             android:foreground="@drawable/ripple_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
-
-
             <TextView
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
@@ -104,7 +96,7 @@ ANIMATION"
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="BLA"
+                android:text="2"
                 android:textSize="17sp"
                 android:textColor="@color/black" />
 
@@ -126,8 +118,6 @@ ANIMATION"
             android:foreground="@drawable/ripple_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
-
-
             <TextView
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
@@ -135,15 +125,12 @@ ANIMATION"
                 android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="BLA"
+                android:text="3"
                 android:textSize="17sp"
                 android:textColor="@color/black" />
 
         </android.support.v7.widget.CardView>
 
-
-
     </LinearLayout>
-
 
 </RelativeLayout>
