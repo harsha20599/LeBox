@@ -2,24 +2,12 @@ package com.nitwit.idiot.lebox;
 
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import org.w3c.dom.Text;
-
-import java.util.Locale;
-
-import static android.R.attr.onClick;
-import static android.R.attr.typeface;
 
 public class MainActivity extends AppCompatActivity {
-    int result;
-
 
     TextView titletxt, txt1, txt2, txt3, txt4, txt5, txt6;
 
