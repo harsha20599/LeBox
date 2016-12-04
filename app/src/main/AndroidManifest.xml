@@ -20,8 +20,6 @@
         <activity android:name=".Bootlogo" />
         <activity android:name=".Written" />
         <activity android:name=".Video" />
-        <activity android:name=".RR" />
-        <activity android:name=".Mokee" />
         <activity android:name=".Settings" />
         <activity
             android:name=".SplashActivity"
@@ -33,8 +31,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".TWRP" />
-        <activity android:name=".Miui" />
-        <activity android:name=".Eui"></activity>
+        <activity android:name=".Logo" />
+        <activity android:name=".Animation" />
+        <activity android:name=".Rompage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
