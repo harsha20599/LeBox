@@ -2,6 +2,7 @@ package com.nitwit.idiot.lebox;
 
 import android.app.DownloadManager;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
@@ -15,20 +16,23 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class Gapps extends AppCompatActivity {
-    CardView card;
-    DownloadManager dm;
+    CardView info;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gapps);
+        info=(CardView)findViewById(R.id.card_viewinfo);
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Info.class);
+                next.putExtra("key",3);
+                startActivity(next);
+            }
+        });
 
-        card = (CardView)findViewById(R.id.card_view0);
-    }
-
-    public void Color(View a) {
-        Random rnd = new Random();
-        card.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
     }
 
 }

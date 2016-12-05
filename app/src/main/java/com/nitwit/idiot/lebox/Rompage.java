@@ -28,7 +28,7 @@ public class Rompage extends AppCompatActivity {
                     "safasfafsas" +
                     "asfasffasfsa");
             textrom.setText("RR");
-            image.setBackgroundResource(R.drawable.rr);
+            image.setBackgroundResource(R.drawable.ic_rr);
         }
         if(num==2)
         {
@@ -39,7 +39,7 @@ public class Rompage extends AppCompatActivity {
                     "safasfafsas" +
                     "asfasffasfsa");
             textrom.setText("MOKEE OS");
-            image.setBackgroundResource(R.drawable.mokee);
+            image.setBackgroundResource(R.drawable.mokee_white);
         }
         if(num==3)
         {
@@ -50,7 +50,7 @@ public class Rompage extends AppCompatActivity {
                     "safasfafsas" +
                     "asfasffasfsa");
             textrom.setText("MIUI 8");
-            image.setBackgroundResource(R.drawable.miui);
+            image.setBackgroundResource(R.drawable.miui_white);
         }
         if(num==4)
         {
@@ -61,7 +61,7 @@ public class Rompage extends AppCompatActivity {
                     "safasfafsas" +
                     "asfasffasfsa");
             textrom.setText("EUI");
-            image.setBackgroundResource(R.drawable.eui);
+            image.setBackgroundResource(R.drawable.eui_white);
         }
         if(num==5)
         {
@@ -72,7 +72,7 @@ public class Rompage extends AppCompatActivity {
                     "safasfafsas" +
                     "asfasffasfsa");
             textrom.setText("Color OS");
-            image.setBackgroundResource(R.drawable.coloros);
+            image.setBackgroundResource(R.drawable.coloros_white);
         }
         if(num==6)
         {
@@ -83,7 +83,7 @@ public class Rompage extends AppCompatActivity {
                     "safasfafsas" +
                     "asfasffasfsa");
             textrom.setText("Flyme Os");
-            image.setBackgroundResource(R.drawable.flymeos);
+            image.setBackgroundResource(R.drawable.flyme_white);
         }
 
     }

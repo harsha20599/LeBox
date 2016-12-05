@@ -14,7 +14,7 @@ import java.util.Random;
 public class Rom extends AppCompatActivity {
 
     TextView titletxt, txt0, txt1, txt2, txt3, txt4,txt5,txt6;
-    CardView card,card1,card2,card3,card4,card5,card6;
+    CardView card,card1,card2,card3,card4,card5,card6,info;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,15 @@ public class Rom extends AppCompatActivity {
         card4 = (CardView)findViewById(R.id.card_view4);
         card5 = (CardView)findViewById(R.id.card_view5);
         card6 = (CardView)findViewById(R.id.card_view6);
+        info=(CardView)findViewById(R.id.card_viewinfo);
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Info.class);
+                next.putExtra("key",1);
+                startActivity(next);
+            }
+        });
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -97,6 +106,7 @@ public class Rom extends AppCompatActivity {
         txt5.setTypeface(BrandonGrotesque);
         txt6.setTypeface(BrandonGrotesque);
     }
+
 
 
 }
