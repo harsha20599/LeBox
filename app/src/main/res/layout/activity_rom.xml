@@ -20,7 +20,7 @@
             android:id="@+id/card_view_heading_lebox"
             android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="130dp"
             card_view:cardCornerRadius="5dp"
             card_view:cardElevation="5dp"
             android:clickable="true"
@@ -28,13 +28,12 @@
             android:layout_marginRight="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
-            android:layout_weight="2"
             card_view:cardUseCompatPadding="true">
 
             <com.joooonho.SelectableRoundedImageView
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/titlecardimgbg"
-                android:src="@drawable/titlecardbg"
+                android:src="@drawable/romcardbg"
                 android:scaleType="matrix"
                 app:sriv_left_top_corner_radius="5dp"
                 app:sriv_right_top_corner_radius="5dp"
@@ -51,7 +50,6 @@
                 android:textSize="70dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:textStyle="bold"
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:layout_width="match_parent"
@@ -72,7 +70,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -100,7 +98,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/recoveryicon"
+                        android:src="@drawable/ic_whtrom"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -110,11 +108,11 @@
                     android:paddingLeft="30dp"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:id="@+id/text_bootlogo"
+                    android:id="@+id/text_aboutrom"
                     android:gravity="center_vertical"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="What is ROM"
+                    android:text="What is a ROM"
                     android:textSize="17sp"
                     android:textColor="@color/black" />
 
@@ -135,7 +133,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
             <LinearLayout
@@ -151,6 +149,7 @@
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/tutorial_tab_layout"
                         android:scaleType="matrix"
+                        android:src="@drawable/iconbg"
                         app:sriv_left_top_corner_radius="2dp"
                         app:sriv_right_top_corner_radius="0dp"
                         app:sriv_left_bottom_corner_radius="1dp"
@@ -163,7 +162,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/rr"
+                        android:src="@drawable/ic_rr"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -198,7 +197,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -213,6 +212,7 @@
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/rom_tab_layout"
                         android:scaleType="matrix"
+                        android:src="@drawable/iconbg"
                         app:sriv_left_top_corner_radius="2dp"
                         app:sriv_right_top_corner_radius="0dp"
                         app:sriv_left_bottom_corner_radius="1dp"
@@ -225,7 +225,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/mokee"
+                        android:src="@drawable/mokee_white"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -260,7 +260,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -275,6 +275,7 @@
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/recovery_tab_layout"
                         android:scaleType="matrix"
+                        android:src="@drawable/iconbg"
                         app:sriv_left_top_corner_radius="2dp"
                         app:sriv_right_top_corner_radius="0dp"
                         app:sriv_left_bottom_corner_radius="1dp"
@@ -287,7 +288,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/miui"
+                        android:src="@drawable/miui_white"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -322,7 +323,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -344,12 +345,13 @@
                         app:sriv_border_width="0dp"
                         app:sriv_border_color="#008fea"
                         app:sriv_oval="false"
+                        android:src="@drawable/iconbg"
                         android:layout_width="70dp"
                         android:layout_height="match_parent" />
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/eui"
+                        android:src="@drawable/eui_white"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -384,7 +386,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -406,12 +408,13 @@
                         app:sriv_border_width="0dp"
                         app:sriv_border_color="#008fea"
                         app:sriv_oval="false"
+                        android:src="@drawable/iconbg"
                         android:layout_width="70dp"
                         android:layout_height="match_parent" />
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/coloros"
+                        android:src="@drawable/coloros_white"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -446,7 +449,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_rom_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -468,12 +471,13 @@
                         app:sriv_border_width="0dp"
                         app:sriv_border_color="#008fea"
                         app:sriv_oval="false"
+                        android:src="@drawable/iconbg"
                         android:layout_width="70dp"
                         android:layout_height="match_parent" />
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/flymeos"
+                        android:src="@drawable/flyme_white"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 

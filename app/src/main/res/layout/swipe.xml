@@ -47,7 +47,7 @@
         android:textColor="@color/black"
         android:id="@+id/text1"
         android:clickable="true"
-        android:foreground="@drawable/ripple_bg"
+        android:foreground="@drawable/ripple_dashboard_bg"
         android:stateListAnimator="@anim/lift_on_touch"
         android:gravity="center"
         android:textSize="25sp"

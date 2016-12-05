@@ -33,7 +33,7 @@
             <com.joooonho.SelectableRoundedImageView
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/titlecardimgbg"
-                android:src="@drawable/titlecardbg"
+                android:src="@drawable/tutorialcardbg"
                 android:scaleType="matrix"
                 app:sriv_left_top_corner_radius="5dp"
                 app:sriv_right_top_corner_radius="5dp"
@@ -71,7 +71,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_tutorials_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
             <LinearLayout
@@ -99,9 +99,9 @@
                         android:layout_height="match_parent" />
 
                     <ImageView
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/ic_tutorial"
-                        android:layout_width="50dp"
+                        android:layout_marginLeft="0dp"
+                        android:src="@drawable/ic_guide"
+                        android:layout_width="70dp"
                         android:layout_height="match_parent" />
 
                 </RelativeLayout>
@@ -135,7 +135,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_tutorials_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -162,9 +162,9 @@
                         android:layout_height="match_parent" />
 
                     <ImageView
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/ic_rom"
-                        android:layout_width="50dp"
+                        android:layout_marginLeft="0dp"
+                        android:src="@drawable/ic_written"
+                        android:layout_width="70dp"
                         android:layout_height="match_parent" />
 
                 </RelativeLayout>
@@ -198,7 +198,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_tutorials_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -225,9 +225,9 @@
                         android:layout_height="match_parent" />
 
                     <ImageView
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/ic_recovery"
-                        android:layout_width="50dp"
+                        android:layout_marginLeft="0dp"
+                        android:src="@drawable/ic_vid_tut"
+                        android:layout_width="70dp"
                         android:layout_height="match_parent" />
 
                 </RelativeLayout>
@@ -247,10 +247,6 @@
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
-bro
-
-
-
     </LinearLayout>
 
 </RelativeLayout>

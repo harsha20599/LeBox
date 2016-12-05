@@ -13,7 +13,7 @@ import java.util.Random;
 
 public class Rom extends AppCompatActivity {
 
-    TextView titletxt, txt1, txt2, txt3, txt4,txt5,txt6;
+    TextView titletxt, txt0, txt1, txt2, txt3, txt4,txt5,txt6;
     CardView card,card1,card2,card3,card4,card5,card6;
 
     @Override
@@ -77,6 +77,7 @@ public class Rom extends AppCompatActivity {
         });
 
         titletxt = (TextView)findViewById(R.id.text_heading_roms);
+        txt0 = (TextView)findViewById(R.id.text_aboutrom);
         txt1 = (TextView)findViewById(R.id.text_resurrectionremix);
         txt2 = (TextView)findViewById(R.id.text_mokeeos);
         txt3 = (TextView)findViewById(R.id.text_miui8);
@@ -88,6 +89,7 @@ public class Rom extends AppCompatActivity {
         Typeface BrandonGrotesqueBlack = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Black.ttf");
 
         titletxt.setTypeface(BrandonGrotesqueBlack);
+        txt0.setTypeface(BrandonGrotesque);
         txt1.setTypeface(BrandonGrotesque);
         txt2.setTypeface(BrandonGrotesque);
         txt3.setTypeface(BrandonGrotesque);

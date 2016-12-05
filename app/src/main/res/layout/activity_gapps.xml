@@ -21,7 +21,7 @@
             android:id="@+id/card_view_heading_lebox"
             android:layout_gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="150dp"
             card_view:cardCornerRadius="5dp"
             card_view:cardElevation="5dp"
             android:clickable="true"
@@ -29,7 +29,6 @@
             android:layout_marginRight="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="0dp"
-            android:layout_weight="2"
             card_view:cardUseCompatPadding="true">
 
             <com.joooonho.SelectableRoundedImageView
@@ -73,7 +72,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_gapps_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -101,7 +100,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/recoveryicon"
+                        android:src="@drawable/ic_whtgapps"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -136,7 +135,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_gapps_bg"
             android:stateListAnimator="@anim/lift_on_touch">
 
             <LinearLayout
@@ -165,7 +164,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/twrplogo"
+                        android:src="@drawable/mmpico"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -200,7 +199,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_gapps_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -228,7 +227,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/twrplogo"
+                        android:src="@drawable/lppico"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -263,7 +262,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_gapps_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -291,7 +290,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/twrplogo"
+                        android:src="@drawable/mmnano"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
@@ -326,7 +325,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_bg"
+            android:foreground="@drawable/ripple_gapps_bg"
             android:stateListAnimator="@anim/lift_on_touch">
             <LinearLayout
                 android:gravity="center"
@@ -354,7 +353,7 @@
 
                     <ImageView
                         android:layout_marginLeft="10dp"
-                        android:src="@drawable/twrplogo"
+                        android:src="@drawable/lpnano"
                         android:layout_width="50dp"
                         android:layout_height="match_parent" />
 
