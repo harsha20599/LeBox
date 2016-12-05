@@ -16,10 +16,10 @@
         card_view:cardElevation="5dp">
 
     <TextView
-        android:id="@+id/text0"
+        android:id="@+id/text_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Boot Animations"
+        android:text=" "
         android:textSize="30dp"
         android:gravity="center"
         android:layout_marginTop="30dp"
@@ -32,7 +32,7 @@
         android:id="@+id/card_view2"
         android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="70dp"
         card_view:cardCornerRadius="2dp"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="5dp"
@@ -42,13 +42,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-    <ImageView
-        android:layout_margin="10dp"
-        android:layout_marginTop="30dp"
-        android:id="@+id/image_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <TextView
         android:textColor="@color/black"
@@ -61,6 +54,12 @@
         android:text="Download"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
 
     </LinearLayout>
 
