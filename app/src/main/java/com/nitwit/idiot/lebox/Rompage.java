@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 public class Rompage extends AppCompatActivity {
     ImageView image;
-    TextView text;
+    TextView textrom,feature;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,26 +17,74 @@ public class Rompage extends AppCompatActivity {
         Intent next=getIntent();
         int num=next.getIntExtra("key",0);
         image=(ImageView)findViewById(R.id.img);
-        text=(TextView)findViewById(R.id.textromname);
+        textrom=(TextView)findViewById(R.id.text_romname);
+        feature=(TextView)findViewById(R.id.text_feature);
         if(num==1)
         {
-            text.setText("RR");
+            feature.setText("Highly customisable" +
+                    "cm based" +
+                    "rr open source" +
+                    "hfaadasda" +
+                    "safasfafsas" +
+                    "asfasffasfsa");
+            textrom.setText("RR");
             image.setBackgroundResource(R.drawable.rr);
         }
         if(num==2)
         {
-            text.setText("MOKEE OS");
+            feature.setText("Highly customisable" +
+                    "cm based" +
+                    "mokee open source" +
+                    "hfaadasda" +
+                    "safasfafsas" +
+                    "asfasffasfsa");
+            textrom.setText("MOKEE OS");
             image.setBackgroundResource(R.drawable.mokee);
         }
         if(num==3)
         {
-            text.setText("MIUI 8");
+            feature.setText("Highly customisable" +
+                    "miui based" +
+                    "miui open source" +
+                    "hfaadasda" +
+                    "safasfafsas" +
+                    "asfasffasfsa");
+            textrom.setText("MIUI 8");
             image.setBackgroundResource(R.drawable.miui);
         }
         if(num==4)
         {
-            text.setText("EUI");
+            feature.setText("Highly customisable" +
+                    "eui based" +
+                    "eui open source" +
+                    "hfaadasda" +
+                    "safasfafsas" +
+                    "asfasffasfsa");
+            textrom.setText("EUI");
             image.setBackgroundResource(R.drawable.eui);
         }
+        if(num==5)
+        {
+            feature.setText("Highly customisable" +
+                    "cos based" +
+                    "coloros open source" +
+                    "hfaadasda" +
+                    "safasfafsas" +
+                    "asfasffasfsa");
+            textrom.setText("Color OS");
+            image.setBackgroundResource(R.drawable.coloros);
+        }
+        if(num==6)
+        {
+            feature.setText("Highly customisable" +
+                    "fos based" +
+                    "flyme os open source" +
+                    "hfaadasda" +
+                    "safasfafsas" +
+                    "asfasffasfsa");
+            textrom.setText("Flyme Os");
+            image.setBackgroundResource(R.drawable.flymeos);
+        }
+
     }
 }

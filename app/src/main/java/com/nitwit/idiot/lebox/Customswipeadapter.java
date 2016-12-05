@@ -17,6 +17,7 @@ public class Customswipeadapter extends PagerAdapter {
     private int[] images={R.drawable.google,R.drawable.watchdogs,R.drawable.materiallogo};
     private Context ctx;
     private LayoutInflater layoutInflater;
+    TextView animation_name;
     public Customswipeadapter(Context ctx)
     {
         this.ctx=ctx;
@@ -36,6 +37,17 @@ public class Customswipeadapter extends PagerAdapter {
         layoutInflater=(LayoutInflater)ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View item_view=layoutInflater.inflate(R.layout.swipe,container,false);
         ImageView imageView=(ImageView)item_view.findViewById(R.id.image_view);
+        animation_name=(TextView)item_view.findViewById(R.id.text_name);
+        if(images[position]==0){
+            animation_name.setText("Google");
+        }
+        else if(images[position]==1){
+            animation_name.setText("Watch Dogs");
+        }
+        else{
+            animation_name.setText("Material Le1s");
+        }
+        animation_name.setText(images[position]);
         imageView.setBackgroundResource(images[position]);
         container.addView(item_view);
         return item_view;

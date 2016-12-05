@@ -13,8 +13,8 @@ import java.util.Random;
 
 public class Rom extends AppCompatActivity {
 
-    TextView titletxt, txt1, txt2, txt3, txt4;
-    CardView card,card1,card2,card3,card4;
+    TextView titletxt, txt1, txt2, txt3, txt4,txt5,txt6;
+    CardView card,card1,card2,card3,card4,card5,card6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,8 @@ public class Rom extends AppCompatActivity {
         card2 = (CardView)findViewById(R.id.card_view2);
         card3 = (CardView)findViewById(R.id.card_view3);
         card4 = (CardView)findViewById(R.id.card_view4);
+        card5 = (CardView)findViewById(R.id.card_view5);
+        card6 = (CardView)findViewById(R.id.card_view6);
         card1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,12 +59,30 @@ public class Rom extends AppCompatActivity {
                 startActivity(next);
             }
         });
+        card5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Rompage.class);
+                next.putExtra("key",5);
+                startActivity(next);
+            }
+        });
+        card6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Rompage.class);
+                next.putExtra("key",6);
+                startActivity(next);
+            }
+        });
 
-        titletxt = (TextView)findViewById(R.id.text0);
-        txt1 = (TextView)findViewById(R.id.text1);
-        txt2 = (TextView)findViewById(R.id.text2);
-        txt3 = (TextView)findViewById(R.id.text3);
-        txt4 = (TextView)findViewById(R.id.text4);
+        titletxt = (TextView)findViewById(R.id.text_heading_roms);
+        txt1 = (TextView)findViewById(R.id.text_resurrectionremix);
+        txt2 = (TextView)findViewById(R.id.text_mokeeos);
+        txt3 = (TextView)findViewById(R.id.text_miui8);
+        txt4 = (TextView)findViewById(R.id.text_euimm);
+        txt5 = (TextView)findViewById(R.id.text_coloros);
+        txt6 = (TextView)findViewById(R.id.text_flymmeos);
 
         Typeface BrandonGrotesque = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Regular.ttf");
         Typeface BrandonGrotesqueBlack = Typeface.createFromAsset(getAssets(), "fonts/BrandonGrotesque-Black.ttf");
@@ -72,10 +92,9 @@ public class Rom extends AppCompatActivity {
         txt2.setTypeface(BrandonGrotesque);
         txt3.setTypeface(BrandonGrotesque);
         txt4.setTypeface(BrandonGrotesque);
+        txt5.setTypeface(BrandonGrotesque);
+        txt6.setTypeface(BrandonGrotesque);
     }
-    public void Color(View a) {
-        Random rnd = new Random();
-        card.setBackgroundColor(Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256)));
-    }
+
 
 }
