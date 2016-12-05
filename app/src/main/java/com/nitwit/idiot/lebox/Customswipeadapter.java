@@ -47,7 +47,7 @@ public class Customswipeadapter extends PagerAdapter {
         else{
             animation_name.setText("Material Le1s");
         }
-        animation_name.setText(images[position]);
+        
         imageView.setBackgroundResource(images[position]);
         container.addView(item_view);
         return item_view;

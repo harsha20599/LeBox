@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <android.support.v7.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/card_view1"
         android:layout_gravity="center"
         android:layout_width="match_parent"
@@ -29,10 +29,34 @@
 
     <android.support.v7.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/card_view2"
+        android:id="@+id/card_view3"
         android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
+        android:clickable="true"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        card_view:cardElevation="5dp">
+
+        <TextView
+            android:id="@+id/down_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"/>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_gravity="center"
+        android:layout_width="240dp"
+        android:layout_height="427dp"
         card_view:cardCornerRadius="2dp"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="5dp"
@@ -40,26 +64,16 @@
         card_view:cardElevation="1dp">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <TextView
-        android:textColor="@color/black"
-        android:id="@+id/text1"
-        android:clickable="true"
-        android:foreground="@drawable/ripple_dashboard_bg"
-        android:stateListAnimator="@anim/lift_on_touch"
-        android:gravity="center"
-        android:textSize="25sp"
-        android:text="Download"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
         <ImageView
+            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:layout_marginTop="70dp"
             android:id="@+id/image_view"
-            android:layout_width="match_parent"
-            android:layout_height="400dp" />
+            android:layout_width="240dp"
+            android:layout_height="427dp" />
 
     </LinearLayout>
 
