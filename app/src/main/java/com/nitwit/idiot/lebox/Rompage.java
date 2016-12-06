@@ -3,12 +3,16 @@ package com.nitwit.idiot.lebox;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Rompage extends AppCompatActivity {
     ImageView image;
     TextView textrom,feature;
+    CardView download;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +22,7 @@ public class Rompage extends AppCompatActivity {
         int num=next.getIntExtra("key",0);
         image=(ImageView)findViewById(R.id.img);
         textrom=(TextView)findViewById(R.id.text_romname);
+        download=(CardView)findViewById(R.id.card_view2);
         feature=(TextView)findViewById(R.id.text_feature);
         if(num==1)
         {
@@ -85,6 +90,12 @@ public class Rompage extends AppCompatActivity {
             textrom.setText("Flyme Os");
             image.setBackgroundResource(R.drawable.flyme_white);
         }
+        download.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"as num",Toast.LENGTH_LONG).show();
+            }
+        });
 
     }
 }
