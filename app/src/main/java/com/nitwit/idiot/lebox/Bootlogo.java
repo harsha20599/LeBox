@@ -12,13 +12,41 @@ import android.widget.TextView;
 import java.util.Random;
 
 public class Bootlogo extends AppCompatActivity {
-    CardView info;
+    CardView info,card1,card2,card3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bootlogo);
         info=(CardView)findViewById(R.id.card_viewinfo);
+        card1=(CardView)findViewById(R.id.card_view1);
+        card2=(CardView)findViewById(R.id.card_view2);
+        card3=(CardView)findViewById(R.id.card_view3);
+        card1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Logopage.class);
+                next.putExtra("key",1);
+                startActivity(next);
+            }
+        });
+        card2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Logopage.class);
+                next.putExtra("key",2);
+                startActivity(next);
+            }
+        });
+        card3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent next= new Intent(getApplicationContext(),Logopage.class);
+                next.putExtra("key",3);
+                startActivity(next);
+            }
+        });
+
         info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -7,7 +7,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/lebox_logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -31,9 +31,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".TWRP" />
-        <activity android:name=".Logo" />
-        <activity android:name=".Rompage"></activity>
-        <activity android:name=".Info"></activity>
+        <activity android:name=".Rompage" />
+        <activity android:name=".Info" />
+        <activity android:name=".Logopage"></activity>
     </application>
 
 </manifest>
