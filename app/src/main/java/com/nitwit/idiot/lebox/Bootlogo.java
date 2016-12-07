@@ -6,6 +6,8 @@ import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.transition.Fade;
+import android.transition.Slide;
 import android.view.View;
 import android.widget.TextView;
 
@@ -18,6 +20,8 @@ public class Bootlogo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bootlogo);
+        setupWindowAnimations();
+
         info=(CardView)findViewById(R.id.card_viewinfo);
         card1=(CardView)findViewById(R.id.card_view1);
         card2=(CardView)findViewById(R.id.card_view2);
@@ -56,6 +60,18 @@ public class Bootlogo extends AppCompatActivity {
             }
         });
     }
+    private void setupWindowAnimations()
+    {
+        Slide slide = new Slide(5);
+        slide.setDuration(200);
+        getWindow().setEnterTransition(slide);
 
+        Fade fade = new Fade();
+        fade.setDuration(200);
+        getWindow().setReturnTransition(fade);
 
+        Slide slide2 = new Slide(3);
+        slide2.setDuration(200);
+        getWindow().setReenterTransition(slide2);
+    }
 }

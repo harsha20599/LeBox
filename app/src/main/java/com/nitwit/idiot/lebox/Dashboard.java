@@ -1,11 +1,19 @@
 package com.nitwit.idiot.lebox;
 
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Explode;
+import android.transition.Fade;
+import android.transition.Slide;
+import android.transition.TransitionInflater;
 import android.view.View;
 import android.widget.TextView;
+
+import static android.R.attr.left;
+import static android.R.attr.right;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -15,6 +23,7 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        setupWindowAnimations();
 
 
         titletxt = (TextView) findViewById(R.id.text_lebox);
@@ -40,36 +49,53 @@ public class Dashboard extends AppCompatActivity {
     public void Tutorial(View a)
     {
         Intent next=new Intent(getApplicationContext(),Tutorials.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
     }
     public void Rom(View a)
     {
         Intent next=new Intent(getApplicationContext(),Rom.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
     }
     public void Recovery(View a)
     {
         Intent next=new Intent(getApplicationContext(),Recovery.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
     }
     public void Gapps(View a)
     {
         Intent next=new Intent(getApplicationContext(),Gapps.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
     }
     public void Bootanim(View a)
     {
         Intent next=new Intent(getApplicationContext(),Bootanimation.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
     }
     public void Bootlogo(View a)
     {
         Intent next=new Intent(getApplicationContext(),Bootlogo.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
     }
     public void Settings(View a)
     {
         Intent next=new Intent(getApplicationContext(), Settings.class);
-        startActivity(next);
+        Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(this).toBundle();
+        this.startActivity(next,bundle);
+    }
+    private void setupWindowAnimations()
+    {
+        Fade fade = new Fade();
+        fade.setDuration(200);
+        getWindow().setExitTransition(fade);
+
+        Slide slide = new Slide(3);
+        slide.setDuration(200);
+        getWindow().setReenterTransition(slide);
     }
 }

@@ -36,8 +36,8 @@
 
             <com.joooonho.SelectableRoundedImageView
                 xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/titlecardimgbg"
-                android:src="@drawable/titlecardbg"
+                android:id="@+id/infocard_bg"
+                android:src="@drawable/infocardbg"
                 android:scaleType="matrix"
                 app:sriv_left_top_corner_radius="5dp"
                 app:sriv_right_top_corner_radius="5dp"
@@ -75,8 +75,7 @@
             card_view:cardElevation="1dp"
             android:layout_weight="1"
             android:clickable="true"
-            android:foreground="@drawable/ripple_recovery_bg"
-            android:stateListAnimator="@anim/lift_on_touch">
+            android:foreground="@drawable/ripple_info_bg">
             <LinearLayout
                 android:gravity="center"
                 android:orientation="horizontal"
@@ -89,7 +88,7 @@
                     <com.joooonho.SelectableRoundedImageView
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         android:id="@+id/bootlogo_tab_layout"
-                        android:src="@drawable/iconbg"
+                        android:src="@drawable/infoiconbg"
                         android:scaleType="matrix"
                         app:sriv_left_top_corner_radius="2dp"
                         app:sriv_right_top_corner_radius="0dp"
